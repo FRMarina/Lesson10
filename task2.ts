@@ -12,7 +12,7 @@ class Counter {
 }
 
 const counter = new Counter();
-const inc = counter.increment;
+const inc = () => counter.increment();
 
 inc();
 
